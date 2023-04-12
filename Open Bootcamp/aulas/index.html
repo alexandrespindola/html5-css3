@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,18 +7,26 @@
     <title>Document</title>
   </head>
   <body>
-    <h1><strong>Hello World!!</strong></h1>
+    <h1><strong>Open Bootcamp</strong></h1>
     <form action="resultados.html" method="GET">
       <div>
         <label for="nombreusuario">Nombre de Usuário</label>
-        <input name="nombreusuario" id="nombreusuario">
+        <input type="text" name="nombreusuario" id="nombreusuario" required>
       </div>
+      <br>
       <div>
         <label for="password">Contraseña</label>
-        <input name="password" id="password">
-        </label>
+        <input type="password" name="password" id="password" required>
       </div>
-      <button>Enviar</button>
+      <br>
+      <label for="edad">Cuál es tu edad</label> 
+      <br>
+      <div>
+        <label for="comentarios">Comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Enviar</button>
     </form>
   </body>
 </html>
