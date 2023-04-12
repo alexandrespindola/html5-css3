@@ -19,12 +19,26 @@
         <input type="password" name="password" id="password" required>
       </div>
       <br>
-      <label for="edad">Cuál es tu edad</label> 
+      <div>
+        <label for="email">Cuál es tu email</label>
+        <input type="email" name="email" id="email" required> 
+      </div>
+      <br>
+      <div>
+        <label for="edad">Cuál es tu edad</label>
+        <input type="number" name="edad" id="edad" min="0" max="200" step="5"> 
+      </div>
+      <br>
+      <div>
+        <label for="edad">Cuál es tu fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento"> 
+      </div>
       <br>
       <div>
         <label for="comentarios">Comentarios</label>
         <textarea name="comentarios" id="comentarios"></textarea>
       </div>
+      <br>
       <button type="reset">Reset</button>
       <button type="submit">Enviar</button>
     </form>
