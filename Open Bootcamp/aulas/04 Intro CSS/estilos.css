@@ -1,3 +1,15 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+}
+
+*.warning {
+    color: white;
+    background-color: red;
+    border: 3;
+    margin: 1em;
+}
+
 h1 {
     color: red;
 }
@@ -5,5 +17,20 @@ h1 {
 /* Estoy probando colores y fuentes */
 p {
     color: blue;
-    font-size: 16px;
+    font-size: 16pt;
+}
+
+p#primera-noticia {
+    font-size: 14pt;
+}
+
+p#segunda-noticia {
+    color: blueviolet;
+    font-size: 15pt;
+}
+
+.encabezado {
+    color: darkblue;
+    font-size: 24pt;
+    text-transform: uppercase;
 }
