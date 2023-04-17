@@ -1,0 +1,12 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#elemento-1 {
+    color: red;
+}
+
+/* Selects the second li element in a list */
+ul > li:nth-child(1) {
+    font-size: 2rem;
+}
