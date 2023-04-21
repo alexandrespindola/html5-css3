@@ -10,3 +10,12 @@
 ul > li:nth-child(1) {
     font-size: 2rem;
 }
+
+h6 {
+    color: #786022;
+    color: #feb500;
+    color: #363440;
+    color: #463d1f;
+    color: #23262c;
+    color: #1f2126;
+}
