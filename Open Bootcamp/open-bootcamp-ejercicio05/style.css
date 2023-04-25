@@ -1,0 +1,14 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.galeria img{
+    max-width: 300px;
+    padding: 1rem;
+}
