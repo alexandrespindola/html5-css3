@@ -1,0 +1,21 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#elemento-1 {
+    color: red;
+}
+
+/* Selects the second li element in a list */
+ul > li:nth-child(1) {
+    font-size: 2rem;
+}
+
+h6 {
+    color: #786022;
+    color: #feb500;
+    color: #363440;
+    color: #463d1f;
+    color: #23262c;
+    color: #1f2126;
+}
