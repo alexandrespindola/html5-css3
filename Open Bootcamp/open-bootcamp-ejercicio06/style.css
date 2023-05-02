@@ -1,21 +1,42 @@
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+/* style.css */
 
-#elemento-1 {
-    color: red;
+.boton {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    position: relative;
 }
-
-/* Selects the second li element in a list */
-ul > li:nth-child(1) {
-    font-size: 2rem;
+    
+.boton::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.3s ease-in-out;
 }
-
-h6 {
-    color: #786022;
-    color: #feb500;
-    color: #363440;
-    color: #463d1f;
-    color: #23262c;
-    color: #1f2126;
+    
+.boton:hover::before {
+    background-color: green;
+}
+    
+.boton:hover {
+    color: #fff;
+}
+    
+.boton::after {
+    content: "¡Hecho!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+    
+.boton:hover::after {
+    opacity: 1;
 }
