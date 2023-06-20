@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style for the main section */
+.main-section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #e1e1e1;
+}
+
+/* Style for the header */
+.main-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the code blocks */
+.main-section code {
+    font-family: monospace;
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Style for the list items */
+.main-section li {
+    margin-bottom: 10px;
+}
+
+/* Style for the navigation bar */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style for the links in the navigation bar */
+#navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* Style for the active link in the navigation bar */
+#navbar a.active {
+    font-weight: bold;
+}
+
+/* Style for the main content area */
+#main-doc {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 200px;
+    padding: 30px;
+    background-color: #333;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    }
+
+    #main-doc {
+    margin-left: 0;
+    }
+}
