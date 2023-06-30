@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMLO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <section id="filter">
+        <select id="name-filter">
+            <option value="all">All</option>
+            <option value="coqueiro">Coqueiro</option>
+            <option value="nestle">Nestlé</option>
+            <option value="petrobras">Petrobrás</option>
+        </select>
+        
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="site">Desenvolvimento de Site</option>
+            <option value="estrategia">Estratégia</option>
+            <option value="redes-sociais">Redes Sociais</option>
+        </select>
+        
+        <select id="location-filter">
+            <option value="all">All</option>
+            <option value="sao-paulo">São Paulo</option>
+            <option value="rio-de-janeiro">Rio de Janeiro</option>
+            <option value="porto-alegre">Porto Alegre</option>
+        </select>  
+    
+        <button id="apply-filters-button">Apply Filters</button>
+
+    </section>
+    
+    <div id="my-container">
+        <section    data-name="coqueiro" data-category="site" data-location="sao-paulo">
+        <h2>Technology Section</h2>
+        <p>This is the content of the technology section.</p>
+        </section>
+        <section data-name="nestle" data-category="estrategia" data-location="rio-de-janeiro">
+        <h2>Cooking Section</h2>
+        <p>This is the content of the cooking section.</p>
+        </section>
+        <section data-name="petrobras" data-category="redes-sociais" data-location="porto-alegre">
+        <h2>Travel Section</h2>
+        <p>This is the content of the travel section.</p>
+        </section>
+    </div>
+
+    <script src="script.js">  
+    </script>
+
+</body>
+</html>

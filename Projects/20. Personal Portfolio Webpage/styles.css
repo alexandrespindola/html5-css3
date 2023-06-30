@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h1 {
+    justify-content: center;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.project-tile {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-tile h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project-tile p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.project-tile a {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#navbar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#navbar a:hover {
+    color: #f2f2f2;
+}
+
+#profile-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #welcome-section {
+    font-size: 2rem;
+    }
+
+    #projects {
+    padding: 20px;
+    }
+
+.project-tile {
+    width: 100%;
+    margin: 10px 0;
+    }
+
+.project-tile h2 {
+    font-size: 1.5rem;
+    }
+
+.project-tile p {
+    font-size: 1rem;
+    }
+
+    #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    #navbar a {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+
+    #profile-link {
+    bottom: 10px;
+    right: 10px;
+    }
+}
