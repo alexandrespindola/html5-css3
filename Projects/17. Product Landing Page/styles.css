@@ -96,26 +96,26 @@ input[type="submit"] {
 
 @media (max-width: 768px) {
     #header-img {
-    height: 40px;
+        height: 40px;
     }
 
     nav {
-    flex-direction: column;
+        flex-direction: column;
     }
 
     .nav-link {
-    padding: 5px;
+        padding: 5px;
     }
 
     main {
-    margin-top: 80px;
+        margin-top: 80px;
     }
 
     section {
-    margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     iframe {
-    height: 200px;
+        height: 200px;
     }
 }
